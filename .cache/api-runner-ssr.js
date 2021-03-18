@@ -1,29 +1,29 @@
 var plugins = [{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
       options: {"plugins":[],"includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"routeChangeEventName":"gatsby-route-change"},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"exclude":[],"query":"\n          {\n            site {\n              siteMetadata {\n                siteUrl\n              }\n            }\n  \n            allSitePage {\n              nodes {\n                path\n              }\n            }\n        }","output":"/sitemap.xml","createLinkInHead":true},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Gyldendal","short_name":"Gyldendal","icon":"src/images/Gyldendal_logo2.svg","start_url":"/","background_color":"#f7f0eb","theme_color":"#a2466c","display":"standalone","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"76949a145ffd2ba1160f5bf8e3d650eb"},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-theme-i18n-react-i18next/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-theme-i18n-react-i18next/gatsby-ssr'),
       options: {"plugins":[],"langKeyDefault":"nb","prefixDefault":"true","locales":"./src/i18n/react-i18next","i18nextOptions":{"ns":["translation","404"]}},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-theme-i18n/gatsby-ssr'),
-      options: {"plugins":[],"defaultLang":"nb","configPath":"C:\\GIT\\Gyldendal\\minside\\src\\i18n\\config.json"},
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-theme-i18n/gatsby-ssr'),
+      options: {"plugins":[],"defaultLang":"nb","configPath":"C:\\GIT\\Gyldendal\\gyldendalminsidetest\\src\\i18n\\config.json"},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/node_modules/gatsby-plugin-gdpr-cookies/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/node_modules/gatsby-plugin-gdpr-cookies/gatsby-ssr'),
       options: {"plugins":[],"facebookPixel":{"pixelId":"","cookieName":"gyldendal-gdpr-facebook-pixel"},"environments":["production","development"]},
     },{
-      plugin: require('C:/GIT/Gyldendal/minside/gatsby-ssr'),
+      plugin: require('C:/GIT/Gyldendal/gyldendalminsidetest/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

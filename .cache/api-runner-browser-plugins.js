@@ -15,7 +15,7 @@ module.exports = [{
       options: {"plugins":[],"langKeyDefault":"nb","prefixDefault":"true","locales":"./src/i18n/react-i18next","i18nextOptions":{"ns":["translation","404"]}},
     },{
       plugin: require('../node_modules/gatsby-theme-i18n/gatsby-browser.js'),
-      options: {"plugins":[],"defaultLang":"nb","configPath":"C:\\GIT\\Gyldendal\\minside\\src\\i18n\\config.json"},
+      options: {"plugins":[],"defaultLang":"nb","configPath":"C:\\GIT\\Gyldendal\\gyldendalminsidetest\\src\\i18n\\config.json"},
     },{
       plugin: require('../node_modules/gatsby-plugin-gdpr-cookies/gatsby-browser.js'),
       options: {"plugins":[],"facebookPixel":{"pixelId":"","cookieName":"gyldendal-gdpr-facebook-pixel"},"environments":["production","development"]},
