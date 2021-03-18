@@ -1,0 +1,26 @@
+name = "gyldendal"
+type = "webpack"
+account_id = "d3af235ebbe9539c8971c1cd18ace835"
+workers_dev = false
+zone_id = "35e7ec425ea1e91445df9e67197296ab"
+
+[site]
+bucket = "public"
+entry-point = "workers-site"
+
+[env.dev]
+name = "dev_gyldendal_no"
+route = "dev.gyldendal.no/*"
+
+[env.test]
+name = "test_gyldendal_no"
+route = "test.gyldendal.no/*"
+
+[env.uat]
+name = "uat_gyldendal_no"
+route = "uat.gyldendal.no/*"
+
+[env.production]
+name = "prod_gyldendal_no"
+route = "ny.gyldendal.no/*"   
+

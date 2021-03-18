@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/en/dev-404-page/",
+        "matchPath": "/en/dev-404-page/"
+    },
+    {
+        "path": "/en/minside/",
+        "matchPath": "/en/minside/*"
+    },
+    {
+        "path": "/en/",
+        "matchPath": "/en/"
+    },
+    {
+        "path": "/en/404/",
+        "matchPath": "/en/*"
+    },
+    {
+        "path": "/minside/",
+        "matchPath": "/minside/*"
+    }
+]

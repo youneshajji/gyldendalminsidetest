@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "GATSBY_PUBLIC_URL": "http: //localhost:8000/",
+        "REACT_APP_API_URL_APIM": "https: //app-gyld-webapi-dev.azurewebsites.net/api",
+        "REACT_APP_API_URL_ID": "https: //app-gyld-identitywebapi-dev.azurewebsites.net/api"
+    }
+}
