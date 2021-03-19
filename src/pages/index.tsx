@@ -22,6 +22,10 @@ const IndexPage = () => {
     let queryParam
     if (location.search !== null) queryParam = queryString.parse(location.search)
 
+    if (queryParam.Teacher === "false") {
+      //TODO: ahow message: only for teachers
+    }
+
     //Prøve tilgang
     window.sessionStorage.setItem("productid", queryParam.productid)
     window.sessionStorage.setItem("producturl", queryParam.producturl)
@@ -36,7 +40,7 @@ const IndexPage = () => {
     //Then show new user schema, after user is created in CRM, navigate back to identityapi (navigate(IdentityApiEndpoint + "/TibetIdentity/GyldendalUser/{mobilephone")) with mobilephone as queryparam
 
     //Get publication Access
-    if (!queryParam.token) navigate(identityWebApi + "/TibetIdentity")
+    if (!queryParam.token && queryParam.Teacher !== "false") navigate(identityWebApi + "/TibetIdentity")
 
     //TODO:navigate to New user schema and send mobilenr to api
     // if (queryParam.firstname && queryParam.usertype === "tibet")
