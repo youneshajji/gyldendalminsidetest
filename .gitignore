@@ -495,3 +495,4 @@ typings/
 .cache/webpack/terser/index-v5/88/3f/4f89512964e665d9317c46cd877f29487f4c54a61f783e9326c90415ba14
 .cache/webpack/terser/index-v5/de/b5/cb71a52991fd069540ff81afc992a723b2291facb5597112c703133af916
 .cache/webpack/terser/index-v5/f1/ca/e7bdebc6893d2c72320b5681f9ea613439290aa0a3ded05db2af539feb57
+.cache/redux/redux.rest.state
